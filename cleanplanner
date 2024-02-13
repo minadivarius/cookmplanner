@@ -1,0 +1,474 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		
+		
+		<script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' Herring/90.1.1182.3';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'REST Tester', 'description': 'ReST Tester', 'filename': 'resttester.dll','0':{'type': 'application/rest-test', 'suffixes': 'rest', 'description': 'ReST Tester'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><title>Meal Planner - COOK mate</title>
+		
+		<meta charset="utf-8"/>
+		<meta name="title" content="COOK mate"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+		<meta name="description" content="COOKmate - My personal recipe organizer. Store and manage your favorite recipes online. Private cloud for collecting and storing recipes from the Web." />
+		<meta name="keywords" content="COOKmate, My CookBook, Recipes, cook, cooking, recipe, android, app, recipe manager, mastercook, shopping list" />
+		<meta name="ROBOTS" content="INDEX, FOLLOW" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="shortcut icon" href="https://d3u8pti8i6gm88.cloudfront.net/static/img/favicon.0ab84b4b35ba.ico" />
+        <meta name="facebook-domain-verification" content="nusevlrpr9bx6p7pn7j7tg8e6fp5g2" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>	
+		<link href="https://d3u8pti8i6gm88.cloudfront.net/static/css/cookbook.11c1667cf462.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="https://d3u8pti8i6gm88.cloudfront.net/static/css/jqueryui.52b40f52dc5b.css" rel="stylesheet" type="text/css" media="all" />
+
+		<script type="text/javascript" src="https://d3u8pti8i6gm88.cloudfront.net/static/scripts/mycookbook.769ecf60a414.js" charset="utf-8"></script>		
+		<script type="text/javascript" src="https://d3u8pti8i6gm88.cloudfront.net/static/scripts/jqueryuidesktop.e1ec76b6f365.js" charset="utf-8"></script>		
+		<link href="https://d3u8pti8i6gm88.cloudfront.net/static/css/jquerymultiselect.40a53d5b3801.css" rel="stylesheet" type="text/css" media="all" />		
+		
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-39CXN8JVG0"></script>
+<script>
+window['ga-disable-UA-41845269-1'] = true;
+
+	
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-39CXN8JVG0');
+
+
+
+  gtag('set', 'user_properties', {user_premium: 'true'});
+  
+</script>
+
+
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Material+Icons' rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+		 <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+	<script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/vendor.b3fc4b8b4d116c080c63.js" ></script>
+<script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/gdprmain.c2a25024cfd2ffe44bf5.js" ></script>
+		   <script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/vendor.b3fc4b8b4d116c080c63.js" ></script>
+<script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/vendor2.ac84abd104c287ca0209.js" ></script>
+<script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/menu.8c156e281a5ff9d44ce4.js" ></script>
+		<script type="text/javascript" charset="utf-8">
+    var API_CATEGORIES = "/api/categories/";
+    var API_TAGS = "/api/tags/";
+    var API_GROUPS = "/api/recipegroups/";
+				//var CSRF_TOKEN = "3BSRf0jes1s8zUxLayULicp1r10tRMheNmkHpn5tnDncipYircZdOEBaYxmfrmpi";
+</script>
+		
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://d3u8pti8i6gm88.cloudfront.net/static/scripts/mealplannerv2.24620933049f.js" charset="utf-8"></script>
+	
+	
+
+		
+		
+	</head>
+
+	<body>
+		<!-- GDPR -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+      
+<script>      var STATIC_PREFIX = "https://d3u8pti8i6gm88.cloudfront.net/static/"; 
+</script>
+<script>
+	    var API_GDPR_SETTINGS = "/api/gdpr/";
+	    var CSRF_TOKEN = "3BSRf0jes1s8zUxLayULicp1r10tRMheNmkHpn5tnDncipYircZdOEBaYxmfrmpi";
+	    var LANGUAGE_CODE = "es";
+
+var GDPR_URL = "/gdpr/";
+
+	var USER_AUTHENTICATED = true;
+
+
+
+	var COOKIECONSENT_HIDE = false;
+
+</script>
+
+		
+		
+
+		
+		
+	<!-- Facebook -->
+		
+<div id="fb-root"></div>
+<script id="allauth-facebook-settings" type="application/json">
+{"appId": "142654105920434", "version": "v18.0", "sdkUrl": "//connect.facebook.net/es_LA/sdk.js", "initParams": {"appId": "142654105920434", "version": "v18.0", "cookie": true, "xfbml": true, "status": true}, "loginOptions": {"auth_type": "reauthenticate", "scope": "email", "auth_nonce": "HniVGlWkHQxmTsFqxRjBYw0dUa22dmS5"}, "loginByTokenUrl": "https://www.cookmate.online/social/facebook/login/token/", "cancelUrl": "https://www.cookmate.online/social/social/login/cancelled/", "logoutUrl": "https://www.cookmate.online/social/logout/", "loginUrl": "https://www.cookmate.online/social/facebook/login/", "errorUrl": "https://www.cookmate.online/social/social/login/error/", "csrfToken": "ggk5k8kXil6A2BQdBpYure5J4EZCpWyQ01MVuv6cdX1EL6hKS33WXGhSBaloZwGU"}
+</script>
+<script type="text/javascript" src="https://d3u8pti8i6gm88.cloudfront.net/static/facebook/js/fbconnect.e242d634f306.js"></script>
+
+
+
+
+
+<script>
+
+window.twttr = (function (d,s,id) {
+  
+  var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+  if(!d.getElementById(id)){
+  	js=d.createElement(s);
+  	js.id=id;
+  	js.src=p+'://platform.twitter.com/widgets.js';
+  	fjs.parentNode.insertBefore(js,fjs);
+  }
+  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+}(document, "script", "twitter-wjs"));
+
+// Wait for the asynchronous resources to load
+twttr.ready(function (twttr) {
+  // Now bind our custom intent events
+  twttr.events.bind('follow', function (event) {
+		$.ajax({ // create an AJAX call...
+                data: '', // get the form data
+                type: 'GET',
+                url: '/tw/', // the file to call
+                success: function(response) {
+                	twSuccess(response);
+                },
+                error: function(response) { 
+                }
+            });
+	});
+});
+</script>
+
+
+
+		
+		
+		<script type="text/javascript" charset="utf-8">
+
+		$(document).ready(function(){
+
+	$("ul.subnav").parent().append("<span class='topnav_bg'></span>"); //Only shows drop down trigger when js is enabled (Adds empty span tag after ul.subnav*)
+	
+	$("ul.topnav li").hover(function() { //When trigger is hover...
+		
+		//Following events are applied to the subnav itself (moving subnav up and down)
+		$(this).find("ul.subnav").show(); //Drop down the subnav on click
+
+		$(this).hover(function() {
+		}, function(){	
+			$(this).find("ul.subnav").hide(); //When the mouse hovers out of the subnav, move it back up
+		});
+
+		//Following events are applied to the trigger (Hover events for the trigger)
+		}).hover(function() { 
+			$(this).addClass("subhover"); //On hover over, add class "subhover"
+		}, function(){	//On Hover Out
+			$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+	});
+
+});
+
+$(document).ready(function(){
+						
+	$('#header').css("background-image", "url(https://d3u8pti8i6gm88.cloudfront.net/medias/img/userfiles/octobre-2018-header.jpg)");  
+						
+});		
+
+
+
+$(document).ready(function(){
+   $("#selectlanguage").multiselect({
+   	selectedList: 1 ,
+   	header: false,
+   	minWidth: "100",
+   	multiple: false
+   }
+   	
+   );
+});
+
+</script>
+		<div id="side-menu-open-frame">
+			<side-menu-open :menuid="menuid"></side-menu-open>
+		</div>
+		
+		<div   id="main" >
+			<div id="header-cookmate">
+
+				
+				<div id="logo">
+					<div id="logo_text">
+						<!-- class="logo_colour", allows you to change the colour of the text -->
+						<a  href="/es/home/" rel="external">
+							<img src="https://d3u8pti8i6gm88.cloudfront.net/static/img/logo-text-cookmate.5d66534a4fe0.png" alt="Cookmate"/>
+						</a>
+					</div>
+					<div id="logo_img">
+						<a  href="/es/home/" rel="external">
+							<img src="https://d3u8pti8i6gm88.cloudfront.net/static/img/logo_75.2d201632d9f3.png" alt="Cookmate"/>
+						</a>
+					</div>
+
+				<div id="menubar">
+					
+						
+									<menu-top-navigation :urls="urls"></menu-top-navigation>
+						
+					
+				</div>
+					<div id="loginbar" class="topbar">
+						
+
+                            <menu-account :username="username" :profile_url="profile_url" :recipes_url="recipes_url" :inbox_url="inbox_url" :unread_messages_nb="unread_messages_nb"
+                                :friends_url="friends_url" :friend_requests_count="friend_requests_count"></menu-account>
+						
+						
+
+								
+					<span id='langbar' >
+                            <select-language :cookbook_languages="cookbook_languages" :setlangaction="setlangaction" :current_language="current_language" :csrfmiddlewaretoken="csrfmiddlewaretoken"></select-language>
+
+					</span>
+
+
+					</div>
+
+				</div>
+
+				
+
+
+			</div>
+
+
+
+			<div id="site_content" style="overflow:visible">
+					
+<div id="side-menu"></div>
+
+
+				<div id="content" class="mealplannercontent">
+	                
+<div id="adbanner" style="display:flex;">
+    
+</div>
+                    <!--
+					<ul class="messages" style="padding: 20px;"><li class="info">⚠️ Incident : We had some issues because of a fire where our server was hosted ....
+				Here are more detail : <a href="https://cookmate.blog/cookmate-online-is-temporarily-unavailable/" target="_blank">Incident in our datacenter</a></li></ul>-->
+	
+	
+
+					<!-- Content -->
+					
+<script type="text/javascript" charset="utf-8">
+ 
+       
+
+    var EVENT_REMOVE_URL= "/mealplanner/delete/";
+    var EVENT_ADD_URL= "/mealplanner/add/";
+    var EVENT_MOVE_URL= "/mealplanner/moveevent/";
+    var EVENT_CHANGEYIELD_URL= "/mealplanner/changeyield/";
+    var EVENT_CHANGENOTE_URL= "/mealplanner/changenote/";
+    var API_SHOPPINGLISTS = "/api/shoppinglists/";
+    var API_RECIPES = "/api/recipes/";
+    var API_EVENTS = "/api/recipeplanning/";
+    var EVENT_ADDTOSHOPPINGLIST_URL="/mealplanner/addtoslv2/";
+    var DEFAULT_IMAGE_URL = "https://d3u8pti8i6gm88.cloudfront.net/static/img/recipe_default_image.0e9a068cfccd.jpg";
+var CSRF_TOKEN = "3BSRf0jes1s8zUxLayULicp1r10tRMheNmkHpn5tnDncipYircZdOEBaYxmfrmpi";
+	
+		var android = false;
+	
+	var DESKTOP = true;
+	
+  
+  
+  
+
+       </script>
+       
+       
+
+<div id="planner-app">
+<vue-maad-calendar  :locale="locale" :staticurl="staticurl" :mediaurl="mediaurl" :android="android" :desktop="desktop"></vue-maad-calendar>
+
+    </div>
+<script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/vendor.b3fc4b8b4d116c080c63.js" ></script>
+<script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/vendor2.ac84abd104c287ca0209.js" ></script>
+<script src="https://d3u8pti8i6gm88.cloudfront.net/static/bundles/main.b69b13159824742a76d7.js" ></script>
+<script type="text/javascript" charset="utf-8">
+//i18next.changeLanguage('es');
+
+var lang = 'es';
+					var staticurl = 'https://d3u8pti8i6gm88.cloudfront.net/static/';
+                    var mediaurl = 'https://d3u8pti8i6gm88.cloudfront.net/medias/';
+     CookmateLibrary.main.initPlanVue(lang, staticurl, mediaurl, android, DESKTOP);
+
+  //Vue.component('vue-maad-calendar', vueEventCalendar);
+</script>
+
+					<!-- End of Content -->
+				</div>
+
+			</div>
+
+			      
+          <div class="panel-account">
+              <div id="menu-login-large" class="loginbar-btns">
+				  
+				  <a href="/gift/" class="gift-btn"><span>¡Regala una Suscripción Premium y recibe 3 meses gratis!</span></a>
+			  </div>
+
+
+
+          </div>
+      
+
+			<footer data-role="footer" data-theme="b">
+          <div id="footer">
+              <!-- Footer -->
+              
+                  <div class="links">
+                      <div id="footer_links" class="link">
+                          <a href='/es/legal_notice/'>Aviso legal</a><a
+                              href='/es/cgv/'>Condiciones generales de Ventas y Términos de servicio</a>
+                          <a href='/es/privacy/'>Política de privacidad</a>
+                      </div>
+                      <div id="copyright">
+                          &copy; MAADINFO SERVICES, 2024 - Todos los derechos reservados. Diseñado                           y desarrollado en 🇫🇷 con ❤️
+                      </div>
+                  </div>
+                  <div id="social_links">
+                      <a href="https://www.facebook.com/CookmateApp/" target="_blank" rel="noopener"><img
+                              src="https://d3u8pti8i6gm88.cloudfront.net/static/img/facebook-green.54d78c685c85.png"/></a>
+                      
+                          <a href="https://twitter.com/cookmate_app" target="_blank" rel="noopener"><img
+                                  src="https://d3u8pti8i6gm88.cloudfront.net/static/img/twitter-green.20a376bba87f.png"/></a>
+                      
+
+                      <a href="https://www.instagram.com/cookmate_app/" target="_blank" rel="noopener"><img
+                              src="https://d3u8pti8i6gm88.cloudfront.net/static/img/instagram-green.09d4c1263994.png"/></a>
+                  </div>
+              
+          </div>
+          <!-- End of Footer -->
+      </footer>
+		</div>
+
+
+			                               <script type="text/javascript" charset="utf-8">
+
+
+var STATIC_PREFIX = 'https://d3u8pti8i6gm88.cloudfront.net/static/';
+var USER_LNG = 'es';
+var LANGUAGES = [['da', 'Dansk'], ['de', 'Deutsch'], ['en', 'Inglés'], ['es', 'Español'], ['el', 'Ελληνικά'], ['fr', 'Français'], ['fr-ca', 'Français (Canada)'], ['it', 'Italiano'], ['hu', 'Magyar'], ['nl', 'Nederlands'], ['pl', 'Polski'], ['pt', 'Português (Portugal)'], ['pt-br', 'Português (Brasil)'], ['sk', 'Slovenčina'], ['fi', 'Suomi'], ['sv', 'Svenska'], ['ru', 'Русский'], ['bg', 'български'], ['ja', '日本語']];
+var SET_LANG_URL = "/setlang/";
+
+var PROFILE_URL = "/profile/";
+var USERNAME="albadivarius";
+var POSTMAN_URL = "/msg/inbox/";
+var FRIENDS_URL = "/friends/";
+var RECIPES_URL = "/recipes/";
+var SELECTED_CATEGORIES;
+var SELECTED_TAGS;
+var COOKMATE_URLS = {
+	"recipes_list":"/recipes/",
+	"recipe_create":"/recipes/add2/",
+	"recipe_search":"/search/",
+    "recipe_scan":"/recipes/scan/",
+    "recipe_ia":"/recipes/generator/",
+	"recipe_import":"/recipes/import/",
+	"friends_recipes":"/friends/recipes/",
+	"bookmarklet":"/es/bookmarklet/",
+	"shoppinglist_list":"/shoppinglists/",
+	"meal_planner_redirect":"/mealplanner/r",
+	"mcb_settings":"/settings/",
+	"news":"/news/",
+	"sites_list":"/es/sites/",
+	"contact":"/es/contact/",
+	"categories":"/categories/",
+	"tags":"/tags/",
+	"linkedrecipes":"/recipegroups/",
+
+};
+              var lang = 'es';
+               var staticurl = 'https://d3u8pti8i6gm88.cloudfront.net/static/';
+
+var  unread_messages_nb = 0;
+               var friend_requests_count=0;
+               var search = "";
+                CookmateLibrary.menu.initMenuVue(lang, staticurl, unread_messages_nb, friend_requests_count, search);
+
+       /*i18next
+            .init({
+                lng: 'es', backend: {
+                    loadPath: 'https://d3u8pti8i6gm88.cloudfront.net/static/localization/{{lng}}/translation-mco.json'
+                }, debug: true,
+                initImmediate: false
+            }, function (err, t) {
+                const i18n = new VueI18Next(i18next);
+
+                const baseapp = new MainVue({
+                    vuetify: vuetifymenuapp,
+                    el: '#header-cookmate',
+
+                    data: {
+                       cookbook_languages: LANGUAGES,
+                        setlangaction:SET_LANG_URL,
+                        current_language:USER_LNG,
+                        csrfmiddlewaretoken:CSRF_TOKEN,
+                        profile_url:PROFILE_URL,
+                        recipes_url:RECIPES_URL,
+                        username:USERNAME,
+                        inbox_url:POSTMAN_URL,
+						urls: COOKMATE_URLS,
+                        unread_messages_nb:unread_messages_nb,
+                        friends_url:FRIENDS_URL,
+                        friend_requests_count:friend_requests_count,
+                    },
+                    i18n: i18n,
+                });
+
+               const sidemenuapp = new MainVue({
+                    vuetify: vuetifymenuapp,
+                    el: '#recipe-search-wrapper',
+					store:menustore,
+                    data: {
+                       cookbook_languages: LANGUAGES,
+                        setlangaction:SET_LANG_URL,
+                        current_language:USER_LNG,
+                        csrfmiddlewaretoken:CSRF_TOKEN,
+                        initialsearch:"",
+						initialcategories:SELECTED_CATEGORIES,
+						initialtags:SELECTED_TAGS,
+						urls: COOKMATE_URLS,
+						staticurl:'https://d3u8pti8i6gm88.cloudfront.net/static/'
+                    },
+                    i18n: i18n,
+                });
+               const sidemenuopenapp = new MainVue({
+                    vuetify: vuetifymenuapp,
+                    el: '#side-menu-open-frame',
+                    data: {
+                    	menuid:"side-menu"
+                    },
+                });
+            });*/
+    </script>
+		
+
+		
+		
+	</body>
+</html>
